@@ -77,7 +77,7 @@ def build_v3(df_clean: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_v4(df_clean: pd.DataFrame) -> pd.DataFrame:
-    """V4 – Reduced 8-feature set: engineered + log energy, log target = raw M."""
+    """V4 – Reduced 8-feature set: engineered + log-transformed E1/E2 features, raw target M."""
     X_full = add_engineered_features(df_clean.drop(columns=['M']))
     X_full['log_E1'] = np.log1p(X_full['E1'])
     X_full['log_E2'] = np.log1p(X_full['E2'])
