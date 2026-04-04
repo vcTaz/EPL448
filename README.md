@@ -12,7 +12,7 @@ across five preprocessed dataset versions combining log-transformation, feature
 engineering, standardisation, and PCA.
 
 **Team 2:** Varnavas Tryfonos, Thrasos Sazeidis, Andreas Evagorou
-— University of Cyprus, EPL448 Data Science & Machine Learning.
+— University of Cyprus, EPL448 Data Mining on the Web.
 
 ---
 
