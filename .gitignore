@@ -1,4 +1,49 @@
-.venv
-.png
-.zip
-.png
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files (use Git LFS or a download script instead) ────────────────────
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ── Generated outputs (reproducible from notebooks — do not version) ─────────
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# ── Archives ──────────────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# ── OS / editor noise ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Build / distribution ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
