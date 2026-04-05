@@ -53,3 +53,4 @@ build/
 
 # ── Logs and temporary files ─────────────────────────────────────────────────
 .tmp/
+*.log

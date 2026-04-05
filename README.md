@@ -1,5 +1,9 @@
 # EPL448 – CERN Electron Collision: Invariant Mass Prediction
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-%E2%89%A51.3-orange.svg)](https://scikit-learn.org/)
+
 This project applies machine learning to predict the invariant mass of dielectron
 collision events recorded by the CMS detector at CERN's Large Hadron Collider.
 The dataset contains 100,000 events with kinematic features (energy, momentum,
@@ -28,8 +32,7 @@ EPL448/
 │   └── README.md          # Download instructions for dielectron.csv
 │
 ├── notebooks/
-│   ├── CERN_electron_collision.ipynb    # Deliverable 3 – main notebook
-│   └── CERN_Deliverable3_SVD.ipynb     # Deliverable 3 – PCA/SVD variant
+│   └── CERN_Electron_Collision_Team_2_Deliverable_3.ipynb  # Deliverable 3 – main notebook
 │
 ├── outputs/               # Generated figures (gitignored – re-run notebooks)
 │
@@ -77,9 +80,7 @@ data/dielectron.csv
 ### 3. Run the notebooks
 
 ```bash
-jupyter notebook notebooks/CERN_electron_collision.ipynb
-# or
-jupyter notebook notebooks/CERN_Deliverable3_SVD.ipynb
+jupyter notebook notebooks/CERN_Electron_Collision_Team_2_Deliverable_3.ipynb
 ```
 
 Generated figures are saved to `outputs/` (created automatically).
@@ -118,3 +119,19 @@ is fitted only on training folds during cross-validation (no data leakage).
 3. Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. *JMLR*, 12, 2825–2830.
 4. Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. *KDD 2016*.
 5. Breiman, L. (2001). Random Forests. *Machine Learning*, 45(1), 5–32.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for
+guidelines on how to submit issues and pull requests.
+
+## Code of Conduct
+
+This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
+By participating you agree to abide by its terms.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

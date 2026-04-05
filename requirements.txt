@@ -1,8 +1,15 @@
+# Core data processing
 numpy>=2,<3
 pandas>=2.0
+
+# Machine learning
 scikit-learn>=1.3
 xgboost>=2.0
+
+# Visualisation
 matplotlib>=3.7
 seaborn>=0.12
+
+# Jupyter environment
 jupyter>=1.0
 notebook>=7.0
