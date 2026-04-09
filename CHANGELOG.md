@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
-## [1.0.0] – 2024-05-01
+## [1.0.0] – 2026-04-09
 
 ### Added
 - Initial public release of CERN Dielectron Invariant Mass Prediction project
